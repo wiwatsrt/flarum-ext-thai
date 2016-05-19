@@ -1,4 +1,4 @@
-# English Language Pack for Flarum
+# Thai Language Pack for Flarum
 
 ## Installation
 
