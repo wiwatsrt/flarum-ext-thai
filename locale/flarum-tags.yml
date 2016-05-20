@@ -61,15 +61,15 @@ flarum-tags:
       choose_secondary_placeholder: "Choose 1 more tag|Choose {count} more tags"
       edit_title: "Edit Tags for {title}"
       submit_button: => core.ref.okay
-      title: Choose Tags for Your Discussion
+      title: เลือกแท็กสำหรับหัวข้อของคุณ
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      choose_tags_link: Choose Tags
+      choose_tags_link: เลือกแท็ก
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      edit_tags_button: Edit Tags
+      edit_tags_button: แก้ไขแท็ก
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
@@ -79,7 +79,7 @@ flarum-tags:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} added the {tagsAdded}."
+      added_tags_text: "{username} ได้เพิ่ม {tagsAdded}."
       added_and_removed_tags_text: "{username} added the {tagsAdded} and removed the {tagsRemoved}."
       removed_tags_text: "{username} removed the {tagsRemoved}."
       tags_text: "{tags} tag|{tags} tags"

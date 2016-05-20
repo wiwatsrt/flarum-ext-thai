@@ -203,11 +203,11 @@ core:
       cannot_reply_button: ไม่อนุญาติให้ตอบ
       cannot_reply_text: คุณไม่ได้รับสิทธิ์ให้ตอบกลับในหัวข้อนี้.
       delete_button: => core.ref.delete
-      delete_confirmation: "คุณแน่ใจว่า ต้องการลบห้วข้อนี้?"
+      delete_confirmation: "คุณแน่ใจว่าต้องการลบห้วข้อนี้?"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: ต้องเข้าสู่ระบบ เพื่อตอบกลับ
+      log_in_to_reply_button: เข้าสู่ระบบเพื่อตอบกลับ
       rename_button: แก้ไขชื่อ
-      rename_text: "Enter a new title for this discussion:"
+      rename_text: "ระบุชื่อใหม่สำหรับหัวข้อนี้:"
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
@@ -340,10 +340,10 @@ core:
 
     # These translations are used in the user profile page and profile popup.
     user:
-      avatar_remove_button: ลบออก
+      avatar_remove_button: ลบรูป
       avatar_upload_button: อัพโหลด
       avatar_upload_tooltip: อัพโหลดรูปประจำตัว
-      bio_placeholder: Write something about yourself
+      bio_placeholder: เขียนอะไรบางอย่างเกี่ยวกับตัวคุณ
       discussions_link: => core.ref.discussions
       in_discussion_text: "In {discussion}"
       joined_date_text: "เข้าร่วมเมื่อ {ago}"
@@ -356,7 +356,7 @@ core:
     user_controls:
       button: Controls
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this user? All of the user's posts will be deleted."
+      delete_confirmation: "คุณแน่ใจว่าต้องการลบผู้ใช้นี้? โพสต์ทั้งหมดของผู้ใช้นี้จะโดนลบ."
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
