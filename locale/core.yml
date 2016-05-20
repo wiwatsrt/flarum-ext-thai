@@ -159,7 +159,7 @@ core:
       confirmation_message: => core.ref.confirmation_email_sent
       confirm_password_label: => core.ref.confirm_password
       dismiss_button: => core.ref.okay
-      incorrect_password_message: The password you entered is incorrect.
+      incorrect_password_message: รหัสผ่านของคุณไม่ถูกต้อง.
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
@@ -171,10 +171,10 @@ core:
 
     # These translations are used by the composer controls.
     composer:
-      close_tooltip: Close
-      exit_full_screen_tooltip: Exit Full Screen
-      full_screen_tooltip: Full Screen
-      minimize_tooltip: Minimize
+      close_tooltip: ปิด
+      exit_full_screen_tooltip: ออกจากการแสดงผลเต็มหน้าจอ
+      full_screen_tooltip: เต็มหน้าจอ
+      minimize_tooltip: ย่อขนาด
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
