@@ -138,14 +138,14 @@ core:
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
-      allow_indefinitely_button: Indefinitely
+      allow_indefinitely_button: ตลอด
       allow_some_minutes_button: "For {count} minute|For {count} minutes"
-      allow_ten_minutes_button: For 10 minutes
+      allow_ten_minutes_button: เป็นเวลา 10 นาที
       allow_until_reply_button: Until next reply
-      everyone_button: Everyone
+      everyone_button: ทุกคน
       members_button: => core.group.members
-      signup_closed_button: Closed
-      signup_open_button: Open
+      signup_closed_button: ปิด
+      signup_open_button: เปิด
 
     # These translations are used in the Settings modal dialog.
     settings:
@@ -178,11 +178,11 @@ core:
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: Write a Post...
+      body_placeholder: เขียนโพส...
       discard_confirmation: "You have not posted your discussion. Do you wish to discard it?"
-      submit_button: Post Discussion
+      submit_button: โพส
       title: => core.ref.start_a_discussion
-      title_placeholder: Discussion Title
+      title_placeholder: ชื่อหัวข้อ
 
     # These translations are used by the composer when editing a post.
     composer_edit:
@@ -216,8 +216,8 @@ core:
       empty_text: It looks like there are no discussions here.
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: ทำเครื่องหมายว่าอ่านแล้ว
-      replied_text: "{username} replied {ago}"
-      started_text: "{username} started {ago}"
+      replied_text: "{username} ตอบ {ago}"
+      started_text: "{username} เริ่ม {ago}"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
@@ -233,16 +233,16 @@ core:
       email_sent_message: We've sent you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two.
       not_found_message: There is no user registered with that email address.
       submit_button: กู้คืนรหัสผ่าน
-      text: Enter your email address and we will send you a link to reset your password.
+      text: ใส่ที่อยู่อีเมลของคุณ และระบบจะจัดส่งลิงค์สำหรับรีเซ็ทรหัสผ่านไปทางอีเมล.
       title: ลืมรหัสผ่าน
 
     # These translations are used in the header and session dropdown menu.
     header:
-      admin_button: Administration
+      admin_button: จัดการเว็บไซต์
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
-      profile_button: Profile
-      search_placeholder: Search Forum
+      profile_button: โปรไฟล์
+      search_placeholder: ค้นหาบทสนทนา
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
@@ -257,11 +257,11 @@ core:
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: Latest
-      newest_button: Newest
-      oldest_button: Oldest
+      latest_button: ล่าสุด
+      newest_button: ใหม่สุด
+      oldest_button: เก่าสุด
       relevance_button: Relevance
-      top_button: Top
+      top_button: ขึ้นด้านบน
 
     # These translations are used in the Log In modal dialog.
     log_in:
@@ -370,7 +370,7 @@ core:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      hidden_tooltip: Hidden
+      hidden_tooltip: ซ่อน
 
     # These translations are used to modify usernames.
     username:
@@ -378,9 +378,9 @@ core:
 
     # These translations are displayed as error messages.
     error:
-      generic_message: "Oops! Something went wrong. Please reload the page and try again."
+      generic_message: "อุ๊ปป! เกิดข้อผิดพลาดบางอย่าง. กรุณารีโหลดและลองใหม่อีกครั้ง."
       not_found_message: The requested resource was not found.
-      permission_denied_message: You do not have permission to do that.
+      permission_denied_message: คุณไม่ได้รับสิทธิ์ ให้ดำเนินการต่อไปนี้.
       rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
 
     # These translations are used as suffixes when abbreviating numbers.
@@ -401,12 +401,12 @@ core:
     content:
       javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
       load_error_message: Something went wrong while trying to load the full version of this site.
-      loading_text: Loading...
+      loading_text: กำลังโหลด...
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
       next_page_button: => core.ref.next_page
-      previous_page_button: Previous Page
+      previous_page_button: หน้าก่อนหน้า
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
@@ -417,7 +417,7 @@ core:
     reset:
       confirm_password_label: => core.ref.confirm_password
       password_label: => core.ref.password
-      submit_button: Reset Password
+      submit_button: รีเซ็ทรหัสผ่าน
       title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in emails sent by the forum.
@@ -426,7 +426,7 @@ core:
     # These translations are used in emails sent when users register new accounts.
     activate_account:
       body: |
-        Hey {username}!
+        สวัสดีคุณ {username}!
 
         Someone (hopefully you!) has signed up to {forum} with this email address.
 
@@ -439,7 +439,7 @@ core:
     # These translations are used in emails sent when users change their email address.
     confirm_email:
       body: |
-        Hey {username}!
+        สวัสดีคุณ {username}!
 
         Someone (hopefully you!) has changed their email address on {forum} to this one.
 
@@ -452,7 +452,7 @@ core:
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
       body: |
-        Hey {username}!
+        สวัสดีคุณ {username}!
 
         Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.
 
@@ -479,7 +479,7 @@ core:
     edit: แก้ไข
     email: อีเมล
     load_more: โหลดเพิ่ม
-    log_in: Log In
+    log_in: เข้าสู่ระบบ
     log_out: ออกจากระบบ
     mark_all_as_read: ทำเครื่องหมายว่าอ่านแล้วทั้งหมด
     next_page: หน้าถัดไป
