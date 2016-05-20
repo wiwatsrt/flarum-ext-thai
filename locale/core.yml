@@ -200,7 +200,7 @@ core:
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      cannot_reply_button: ไม่อนุญาติให้ตอบ
+      cannot_reply_button: ไม่สามารถตอบกลับ
       cannot_reply_text: คุณไม่ได้รับสิทธิ์ให้ตอบกลับในหัวข้อนี้.
       delete_button: => core.ref.delete
       delete_confirmation: "คุณแน่ใจว่าต้องการลบห้วข้อนี้?"
@@ -216,8 +216,8 @@ core:
       empty_text: ไม่มีห้วข้อ.
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: ทำเครื่องหมายว่าอ่านแล้ว
-      replied_text: "{username} ตอบ {ago}"
-      started_text: "{username} เริ่ม {ago}"
+      replied_text: "{username} ตอบกลับ {ago}"
+      started_text: "{username} เริ่มต้น {ago}"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
@@ -493,7 +493,7 @@ core:
     settings: การตั้งค่า
     sign_up: ลงทะเบียน
     some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: เริ่มห้วข้อใหม่
+    start_a_discussion: ตั้งหัวข้อใหม่
     username: ชื่อผู้ใช้
     write_a_reply: ตอบกลับ...
     you: คุณ                                     # Referenced by flarum-likes.yml, flarum-mentions.yml

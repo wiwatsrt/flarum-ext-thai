@@ -59,7 +59,7 @@ flarum-tags:
     choose_tags:
       choose_primary_placeholder: "Choose a primary tag|Choose {count} primary tags"
       choose_secondary_placeholder: "Choose 1 more tag|Choose {count} more tags"
-      edit_title: "Edit Tags for {title}"
+      edit_title: "แก้ไขแท็กของ {title}"
       submit_button: => core.ref.okay
       title: เลือกแท็กสำหรับหัวข้อของคุณ
 
