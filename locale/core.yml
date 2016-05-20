@@ -203,7 +203,7 @@ core:
       cannot_reply_button: ไม่อนุญาติให้ตอบ
       cannot_reply_text: คุณไม่ได้รับสิทธิ์ให้ตอบกลับในหัวข้อนี้.
       delete_button: => core.ref.delete
-      delete_confirmation: "คุณแน่ใจว่า ต้องการลบบทสนทนานี้?"
+      delete_confirmation: "คุณแน่ใจว่า ต้องการลบห้วข้อนี้?"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: ต้องเข้าสู่ระบบ เพื่อตอบกลับ
       rename_button: แก้ไขชื่อ
@@ -213,7 +213,7 @@ core:
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: ไม่มีบทสนทนา.
+      empty_text: ไม่มีห้วข้อ.
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: ทำเครื่องหมายว่าอ่านแล้ว
       replied_text: "{username} ตอบ {ago}"
@@ -242,7 +242,7 @@ core:
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: โปรไฟล์
-      search_placeholder: ค้นหาบทสนทนา
+      search_placeholder: ค้นหาห้วข้อ
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
@@ -468,14 +468,14 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: บทสนทนาทั้งหมด
+    all_discussions: ห้วข้อทั้งหมด
     change_email: เปลี่ยนอีเมล
     change_password: เปลี่ยนรหัสผ่าน
     confirm_password: ยืนยันรหัสผ่าน
     confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
     delete: ลบ
     delete_forever: ลบถาวร
-    discussions: บทสนทนา
+    discussions: ห้วข้อ
     edit: แก้ไข
     email: อีเมล
     load_more: โหลดเพิ่ม
@@ -493,7 +493,7 @@ core:
     settings: การตั้งค่า
     sign_up: ลงทะเบียน
     some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: เริ่มบทสนทนาใหม่
+    start_a_discussion: เริ่มห้วข้อใหม่
     username: ชื่อผู้ใช้
     write_a_reply: ตอบกลับ...
     you: คุณ                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
