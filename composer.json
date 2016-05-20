@@ -1,6 +1,6 @@
 {
     "name": "wiwatsrt/flarum-ext-thai",
-    "type": "flarum-ext-thai",
+    "type": "flarum-extension",
     "description": "Thai language pack.",
     "keywords": ["locale"],
     "license": "MIT",
