@@ -96,6 +96,6 @@ flarum-tags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    create_tag: Create Tag
-    name: Name
-    tags: Tags
+    create_tag: สร้างแท็ก
+    name: ชื่อ
+    tags: แท็ก

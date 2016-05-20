@@ -17,8 +17,8 @@ flarum-approval:
 
     # These translations are displayed in the post header.
     post:
-      awaiting_approval_text: Awaiting approval
+      awaiting_approval_text: รออนุมัติ
 
     # These translations are used by the post control buttons.
     post_controls:
-      approve_button: Approve
+      approve_button: อนุมัติ
