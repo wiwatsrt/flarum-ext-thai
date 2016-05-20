@@ -321,10 +321,10 @@ core:
       change_password_button: => core.ref.change_password
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
-      notify_by_web_heading: Web
+      notify_by_web_heading: เว็บไซต์
       notify_discussion_renamed_label: Someone renames a discussion I started
       privacy_disclose_online_label: Allow others to see when I am online
-      privacy_heading: Privacy
+      privacy_heading: ความเป็นส่วนตัว
       title: => core.ref.settings
 
     # These translations are used in the Sign Up modal dialog.
@@ -478,7 +478,7 @@ core:
     discussions: ห้วข้อ
     edit: แก้ไข
     email: อีเมล
-    load_more: โหลดเพิ่ม
+    load_more: แสดงเพิ่ม
     log_in: เข้าสู่ระบบ
     log_out: ออกจากระบบ
     mark_all_as_read: ทำเครื่องหมายว่าอ่านแล้วทั้งหมด
