@@ -349,7 +349,7 @@ core:
       joined_date_text: "เข้าร่วมเมื่อ {ago}"
       online_text: ออนไลน์
       posts_load_more_button: => core.ref.load_more
-      posts_link: Posts
+      posts_link: โพสต์
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
