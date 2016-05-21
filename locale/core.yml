@@ -469,7 +469,7 @@ core:
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     all_discussions: ห้วข้อทั้งหมด
-    change_email: เปลี่ยนอีเมล
+    change_email: แก้ไขอีเมล
     change_password: เปลี่ยนรหัสผ่าน
     confirm_password: ยืนยันรหัสผ่าน
     confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
