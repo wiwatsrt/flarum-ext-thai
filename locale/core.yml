@@ -205,7 +205,7 @@ core:
       delete_button: => core.ref.delete
       delete_confirmation: "คุณแน่ใจว่าต้องการลบห้วข้อนี้?"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: เข้าสู่ระบบเพื่อตอบกลับ
+      log_in_to_reply_button: เข้าสู่ระบบเพื่อตอบ
       rename_button: แก้ไขชื่อ
       rename_text: "ระบุชื่อใหม่สำหรับหัวข้อนี้:"
       reply_button: => core.ref.reply
@@ -295,10 +295,10 @@ core:
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: Now
-      original_post_link: Original Post
-      unread_text: "{count} unread"
-      viewing_text: "{index} of {count} post|{index} of {count} posts"
+      now_link: ตอนนี้
+      original_post_link: โพสต์ต้นฉบับ
+      unread_text: "{count} ที่ยังไม่อ่าน"
+      viewing_text: "{index} จาก {count} โพสต์|{index} จาก {count} โพสต์"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
@@ -472,7 +472,7 @@ core:
     change_email: แก้ไขอีเมล
     change_password: เปลี่ยนรหัสผ่าน
     confirm_password: ยืนยันรหัสผ่าน
-    confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
+    confirmation_email_sent: "เราได้ส่งอีเมลยืนยันไปยัง {email}. หากคุณไม่ได้รับอีเมลยืนยัน ให้ตรวจสอบในโฟลเดอร์สแปมของคุณ."
     delete: ลบ
     delete_forever: ลบถาวร
     discussions: ห้วข้อ
