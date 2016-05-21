@@ -174,13 +174,13 @@ core:
       close_tooltip: ปิด
       exit_full_screen_tooltip: ออกจากการแสดงผลเต็มหน้าจอ
       full_screen_tooltip: เต็มหน้าจอ
-      minimize_tooltip: ย่อขนาด
+      minimize_tooltip: ย่อเล็กสุด
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: เขียนโพส...
+      body_placeholder: เขียนโพสต์...
       discard_confirmation: "You have not posted your discussion. Do you wish to discard it?"
-      submit_button: โพส
+      submit_button: โพสต์
       title: => core.ref.start_a_discussion
       title_placeholder: ชื่อหัวข้อ
 
@@ -316,14 +316,14 @@ core:
 
     # These translations are used in the Settings page.
     settings:
-      account_heading: Account
+      account_heading: บัญชี
       change_email_button: => core.ref.change_email
       change_password_button: => core.ref.change_password
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: เว็บไซต์
-      notify_discussion_renamed_label: Someone renames a discussion I started
-      privacy_disclose_online_label: Allow others to see when I am online
+      notify_discussion_renamed_label: บางคนเปลี่ยนชื่อหัวข้อที่ฉันเริ่ม
+      privacy_disclose_online_label: อนุญาตให้ผู้อื่นเห็นเมื่อฉันออนไลน์
       privacy_heading: ความเป็นส่วนตัว
       title: => core.ref.settings
 
@@ -354,7 +354,7 @@ core:
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      button: Controls
+      button: จัดการ
       delete_button: => core.ref.delete
       delete_confirmation: "คุณแน่ใจว่าต้องการลบผู้ใช้นี้? โพสต์ทั้งหมดของผู้ใช้นี้จะโดนลบ."
       edit_button: => core.ref.edit
@@ -362,8 +362,8 @@ core:
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
       alert_message: => core.ref.confirmation_email_sent
-      resend_button: Resend Confirmation Email
-      sent_message: Sent
+      resend_button: ส่งอีเมลยืนยันซ้ำ
+      sent_message: ส่ง
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
@@ -391,8 +391,8 @@ core:
     # These translations are used to punctuate a series of items.
     series:
       glue_text: ", "
-      three_text: "{first}, {second}, and {third}"
-      two_text: "{first} and {second}"
+      three_text: "{first}, {second}, และ {third}"
+      two_text: "{first} และ {second}"
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:

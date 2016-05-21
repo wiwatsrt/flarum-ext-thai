@@ -27,9 +27,9 @@ flarum-mentions:
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_mentioned_label: Someone replies to one of my posts
-      notify_user_mentioned_label: Someone mentions me in a post
+      notify_post_mentioned_label: บางคนตอบโพสต์ของฉัน
+      notify_user_mentioned_label: บางคนกล่าวถึงฉันในโพสต์
 
     # These translations are used in the user profile page and profile popup.
     user:
-      mentions_link: Mentions
+      mentions_link: กล่าวถึง
