@@ -79,9 +79,9 @@ flarum-tags:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} ได้เพิ่ม {tagsAdded}."
-      added_and_removed_tags_text: "{username} ได้เพิ่ม {tagsAdded} และลบ {tagsRemoved}."
-      removed_tags_text: "{username} ได้ลบ {tagsRemoved}."
+      added_tags_text: "{username} เพิ่ม {tagsAdded}"
+      added_and_removed_tags_text: "{username} เพิ่ม {tagsAdded} และลบ {tagsRemoved}"
+      removed_tags_text: "{username} ลบ {tagsRemoved}"
       tags_text: "แท็ก {tags}|แท็ก {tags}"
 
   # Translations in this namespace are used by the forum and admin interfaces.
