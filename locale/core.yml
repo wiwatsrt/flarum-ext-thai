@@ -165,8 +165,8 @@ core:
 
     # These translations are used in the Change Password modal dialog.
     change_password:
-      send_button: Send Password Reset Email
-      text: Click the button below and check your email for a link to change your password.
+      send_button: ส่งอีเมลรีเซ็ทรหัสผ่าน
+      text: คลิกที่ปุ่มด้านล่าง และเปิดอีเมลของคุณมองหาลิงค์ที่ใช้ในการเปลี่ยนรหัสผ่านของคุณ.
       title: => core.ref.change_password
 
     # These translations are used by the composer controls.
