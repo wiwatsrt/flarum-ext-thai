@@ -178,24 +178,24 @@ core:
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
       body_placeholder: เขียนโพสต์...
-      discard_confirmation: "You have not posted your discussion. Do you wish to discard it?"
+      discard_confirmation: "คุณยังไม่ได้โพสต์หัวข้อ. คุณต้องการที่จะทิ้งมัน?"
       submit_button: โพสต์
       title: => core.ref.start_a_discussion
       title_placeholder: ชื่อหัวข้อ
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: "You have not saved your changes. Do you wish to discard them?"
-      post_link: "Post #{number} in {discussion}"
+      discard_confirmation: "คุณยังไม่ได้บันทึกการเปลี่ยนแปลงของคุณ. คุณต้องการที่จะทิ้งมัน?"
+      post_link: "โพสต์ #{number} ใน {discussion}"
       submit_button: => core.ref.save_changes
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      discard_confirmation: "You have not posted your reply. Do you wish to discard it?"
-      posted_message: Your reply was posted.
-      submit_button: Post Reply
-      view_button: View
+      discard_confirmation: "คุณยังไม่ได้โพสต์ตอบกลับ. คุณต้องการที่จะทิ้งมัน?"
+      posted_message: ตอบกลับของคุณถูกโพสต์แล้ว.
+      submit_button: โพสต์ตอบ
+      view_button: ดู
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
@@ -231,9 +231,9 @@ core:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
       email_sent_message: We've sent you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two.
-      not_found_message: There is no user registered with that email address.
+      not_found_message: ไม่มีการสมัครใช้งานด้วยอีเมลที่ระบุ.
       submit_button: กู้คืนรหัสผ่าน
-      text: ใส่ที่อยู่อีเมลของคุณ และระบบจะจัดส่งลิงค์สำหรับรีเซ็ทรหัสผ่านไปทางอีเมล.
+      text: กรอกที่อยู่อีเมลของคุณ และระบบจะจัดส่งลิงค์สำหรับรีเซ็ทรหัสผ่านไปทางอีเมล.
       title: ลืมรหัสผ่าน
 
     # These translations are used in the header and session dropdown menu.
@@ -268,14 +268,14 @@ core:
       forgot_password_link: "ลืมรหัสผ่าน?"
       invalid_login_message: ข้อมูลการเข้าสู่ระบบไม่ถูกต้อง.
       password_placeholder: => core.ref.password
-      sign_up_text: "ถ้ายังไม่มีบัญชี? <a>ลงทะเบียน</a>"
+      sign_up_text: "ถ้ายังไม่มีบัญชี? <a>สมัครใช้งาน</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
       username_or_email_placeholder: ชื่อผู้ใช้หรืออีเมล
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_renamed_text: "{username} changed the title"
+      discussion_renamed_text: "{username} เปลี่ยนชื่อหัวข้อ"
       empty_text: ไม่มีการแจ้งเตือน
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       title: => core.ref.notifications
@@ -285,7 +285,7 @@ core:
     post:
       edited_text: "มีการแก้ไข"
       edited_tooltip: "{username} แก้ไขเมื่อ {ago}"
-      number_tooltip: "Post #{number}"
+      number_tooltip: "โพสต์ #{number}"
 
     # These translations are used by the post control buttons.
     post_controls:
@@ -303,8 +303,8 @@ core:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_old_tooltip: 'The old title was: "{old}"'
-      discussion_renamed_text: "{username} changed the title to {new}."
+      discussion_renamed_old_tooltip: 'ชื่อหัวข้อเดิม คือ: "{old}"'
+      discussion_renamed_text: "{username} เปลี่ยนชื่อหัวข้อเป็น {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} later"
@@ -313,7 +313,7 @@ core:
     search:
       all_discussions_button: 'ค้นหาหัวข้อทั้งหมดสำหรับ "{query}"'
       discussions_heading: => core.ref.discussions
-      users_heading: Users
+      users_heading: ผู้ใช้
 
     # These translations are used in the Settings page.
     settings:
@@ -346,7 +346,7 @@ core:
       avatar_upload_tooltip: อัพโหลดรูปประจำตัว
       bio_placeholder: เขียนอะไรบางอย่างเกี่ยวกับตัวคุณ
       discussions_link: => core.ref.discussions
-      in_discussion_text: "In {discussion}"
+      in_discussion_text: "ในหัวข้อ {discussion}"
       joined_date_text: "เข้าร่วมเมื่อ {ago}"
       online_text: ออนไลน์
       posts_load_more_button: => core.ref.load_more
@@ -380,7 +380,7 @@ core:
     # These translations are displayed as error messages.
     error:
       generic_message: "อุ๊ปป! เกิดข้อผิดพลาดบางอย่าง. กรุณารีโหลดและลองใหม่อีกครั้ง."
-      not_found_message: The requested resource was not found.
+      not_found_message: ไม่พบสิ่งที่คุณร้องขอ.
       permission_denied_message: คุณไม่ได้รับสิทธิ์ ให้ดำเนินการต่อไปนี้.
       rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
 
@@ -473,7 +473,7 @@ core:
     change_email: แก้ไขอีเมล
     change_password: เปลี่ยนรหัสผ่าน
     confirm_password: ยืนยันรหัสผ่าน
-    confirmation_email_sent: "เราได้ส่งอีเมลยืนยันไปยัง {email}. หากคุณไม่ได้รับอีเมลยืนยัน ให้ตรวจสอบในโฟลเดอร์สแปมของคุณ."
+    confirmation_email_sent: "เราได้ส่งอีเมลยืนยันไปที่ {email}. หากคุณไม่ได้รับอีเมลยืนยัน ให้ตรวจสอบในโฟลเดอร์สแปมของคุณ."
     delete: ลบ
     delete_forever: ลบถาวร
     discussions: ห้วข้อ
@@ -492,7 +492,7 @@ core:
     restore: กู้คืน
     save_changes: บันทึกการเปลี่ยนแปลง                   # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: การตั้งค่า
-    sign_up: ลงทะเบียน
+    sign_up: สมัครใช้งาน
     some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: ตั้งหัวข้อใหม่
     username: ชื่อผู้ใช้
