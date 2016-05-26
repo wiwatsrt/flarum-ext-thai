@@ -283,7 +283,7 @@ core:
 
     # These translations are used by tooltips displayed for individual posts.
     post:
-      edited_text: "มีการแก้ไข"
+      edited_text: มีการแก้ไข
       edited_tooltip: "{username} แก้ไขเมื่อ {ago}"
       number_tooltip: "โพสต์ #{number}"
 
