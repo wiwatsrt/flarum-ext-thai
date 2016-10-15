@@ -325,7 +325,7 @@ core:
       discussion_renamed_text: "{username} เปลี่ยนชื่อหัวข้อเป็น {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
-      time_lapsed_text: "{period} later"
+      time_lapsed_text: "{period} ต่อมา"
 
     # These translations are used by the search results dropdown list.
     search:
@@ -400,7 +400,7 @@ core:
       generic_message: "อุ๊ปป! เกิดข้อผิดพลาดบางอย่าง. กรุณารีโหลดและลองใหม่อีกครั้ง."
       not_found_message: ไม่พบสิ่งที่คุณร้องขอ.
       permission_denied_message: คุณไม่ได้รับสิทธิ์ ให้ดำเนินการต่อไปนี้.
-      rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
+      rate_limit_exceeded_message: คุณได้ดำเนินการเร็วเกินไป, โปรดลองอีกครั้งในอีกสักครู่.
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
