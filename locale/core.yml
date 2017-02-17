@@ -12,6 +12,7 @@ core:
       developer_text: "If you're a developer, you can <a>read the docs</a> and have a go at building your own extensions."
       install_text: "In the meantime, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer."
       temporary_text: "One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We're building an ecosystem as we speak!"
+      title: Add Extension
 
     # These translations are used in the Appearance page.
     appearance:
@@ -238,10 +239,16 @@ core:
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
+      activate_button: Activate User
+      email_heading: => core.ref.email
       email_label: => core.ref.email
+      groups_heading: Groups
+      password_heading: => core.ref.password
       password_label: => core.ref.password
+      set_password_label: Set new password
       submit_button: => core.ref.save_changes
       title: แก้ไขผู้ใช้
+      username_heading: => core.ref.username
       username_label: => core.ref.username
 
     # These translations are used in the Forgot Password modal dialog.
@@ -286,6 +293,7 @@ core:
       forgot_password_link: "ลืมรหัสผ่าน?"
       invalid_login_message: ข้อมูลการเข้าสู่ระบบไม่ถูกต้อง.
       password_placeholder: => core.ref.password
+      remember_me_label: Remember me for two weeks
       sign_up_text: "ถ้ายังไม่มีบัญชี? <a>สมัครใช้งาน</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
@@ -438,6 +446,10 @@ core:
       password_label: => core.ref.password
       submit_button: รีเซ็ทรหัสผ่าน
       title: => core.ref.reset_your_password
+
+  # Translations in this namespace are used in messages output by the API.
+  api:
+    invalid_username_message: "The username may only contain letters, numbers, and dashes."
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
