@@ -521,7 +521,7 @@ core:
     notifications: การแจ้งเตือน
     okay: ตกลง                                     # Referenced by flarum-tags.yml
     password: รหัสผ่าน
-    rename: Rename
+    rename: เปลี่ยนชื่อ
     reply: ตอบกลับ                                 # Referenced by flarum-mentions.yml
     reset_your_password: รีเซ็ทรหัสผ่าน
     restore: กู้คืน
