@@ -225,9 +225,6 @@ core:
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: เข้าสู่ระบบเพื่อตอบ
       rename_button: => core.ref.rename
-      rename_text: "ระบุชื่อใหม่สำหรับหัวข้อนี้:"
-      log_in_to_reply_button: Log In to Reply
-      rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
