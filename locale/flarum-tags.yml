@@ -61,7 +61,7 @@ flarum-tags:
       choose_secondary_placeholder: "Choose 1 more tag|Choose {count} more tags"
       edit_title: "แก้ไขแท็กของ {title}"
       submit_button: => core.ref.okay
-      title: เลือกแท็กสำหรับหัวข้อของคุณ
+      title: เลือกแท็กสำหรับกระทู้ของคุณ
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:

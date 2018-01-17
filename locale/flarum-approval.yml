@@ -11,7 +11,7 @@ flarum-approval:
     permissions:
       approve_posts_label: อนุมัติโพสต์
       reply_without_approval_label: ตอบกลับโดยไม่ต้องรออนุมัติ
-      start_discussions_without_approval_label: ตั้งหัวข้อโดยไม่ต้องรออนุมัติ
+      start_discussions_without_approval_label: ตั้งกระทู้โดยไม่ต้องรออนุมัติ
 
   # Translations in this namespace are used by the forum user interface.
   forum:

@@ -67,16 +67,16 @@ core:
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
-      color_label: Color
-      delete_button: Delete Group
+      color_label: สี
+      delete_button: ลบกลุ่ม
       delete_confirmation: "Are you sure you want to delete this group? The group members will NOT be deleted."
       icon_label: Icon
       icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>without</em> the <code>fa-</code> prefix."
-      name_label: Name
+      name_label: ชื่อ
       plural_placeholder: Plural (e.g. Mods)
       singular_placeholder: Singular (e.g. Mod)
       submit_button: => core.ref.save_changes
-      title: Create Group
+      title: สร้างกลุ่ม
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
@@ -116,40 +116,40 @@ core:
 
     # These translations are used in the navigation bar.
     nav:
-      appearance_button: Appearance
+      appearance_button: การแสดงผล
       appearance_text: "Customize your forum's colors, logos, and other variables."
-      basics_button: Basics
+      basics_button: พื้นฐาน
       basics_text: "Set your forum title, language, and other basic settings."
-      dashboard_button: Dashboard
+      dashboard_button: แดชบอร์ด
       dashboard_text: Your forum at a glance.
       email_button: => core.ref.email
       email_text: "Configure your forum's email settings."
-      extensions_button: Extensions
+      extensions_button: ส่วนเสริม
       extensions_text: Add extra functionality to your forum and make it your own.
-      permissions_button: Permissions
+      permissions_button: สิทธิ์การใช้
       permissions_text: Configure who can see and do what.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_renaming_label: Allow renaming
-      allow_post_editing_label: Allow post editing
+      allow_renaming_label: อนุญาตให้แก้ไขชื่อ
+      allow_post_editing_label: อนุญาตให้แก้ไขโพสต์
       create_heading: Create
-      delete_discussions_forever_label: Delete discussions forever
-      delete_discussions_label: Delete discussions
+      delete_discussions_forever_label: ลบกระทู้ถาวร
+      delete_discussions_label: ลบกระทู้
       delete_posts_forever_label: Delete posts forever
       edit_and_delete_posts_label: Edit and delete posts
       global_heading: Global
       moderate_heading: Moderate
-      new_group_button: New Group
+      new_group_button: กลุ่มใหม่
       participate_heading: Participate
       read_heading: Read
-      rename_discussions_label: Rename discussions
-      reply_to_discussions_label: Reply to discussions
-      sign_up_label: Sign up
-      start_discussions_label: Start discussions
-      view_discussions_label: View discussions
+      rename_discussions_label: แก้ไขชื่อกระทู้
+      reply_to_discussions_label: ตอบกลับกระทู้
+      sign_up_label: สมัครสมาชิก
+      start_discussions_label: ตั้งกระทู้
+      view_discussions_label: อ่านกระทู้
       view_post_ips_label: View post IP addresses
-      view_user_list_label: View user list
+      view_user_list_label: ดูรายชื่อสมาชิก
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -199,10 +199,10 @@ core:
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
       body_placeholder: เขียนโพสต์...
-      discard_confirmation: "คุณยังไม่ได้โพสต์หัวข้อ. คุณต้องการที่จะทิ้งมัน?"
+      discard_confirmation: "คุณยังไม่ได้โพสต์กระทู้. คุณต้องการที่จะทิ้งมัน?"
       submit_button: โพสต์
       title: => core.ref.start_a_discussion
-      title_placeholder: ชื่อหัวข้อ
+      title_placeholder: ชื่อกระทู้
 
     # These translations are used by the composer when editing a post.
     composer_edit:
@@ -221,9 +221,9 @@ core:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       cannot_reply_button: ไม่สามารถตอบกลับ
-      cannot_reply_text: คุณไม่ได้รับสิทธิ์ให้ตอบกลับในหัวข้อนี้.
+      cannot_reply_text: คุณไม่ได้รับสิทธิ์ให้ตอบกลับในกระทู้นี้.
       delete_button: => core.ref.delete
-      delete_confirmation: "คุณแน่ใจว่าต้องการลบห้วข้อนี้?"
+      delete_confirmation: "คุณแน่ใจว่าต้องการลบกระทู้นี้?"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: เข้าสู่ระบบเพื่อตอบ
       rename_button: => core.ref.rename
@@ -232,7 +232,7 @@ core:
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: ไม่มีห้วข้อ.
+      empty_text: ไม่มีกระทู้.
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: ทำเครื่องหมายว่าอ่านแล้ว
       replied_text: "{username} ตอบกลับ {ago}"
@@ -269,7 +269,7 @@ core:
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: โปรไฟล์
-      search_placeholder: ค้นหาห้วข้อ
+      search_placeholder: ค้นหากระทู้
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
@@ -303,7 +303,7 @@ core:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_renamed_text: "{username} เปลี่ยนชื่อหัวข้อ"
+      discussion_renamed_text: "{username} เปลี่ยนชื่อกระทู้"
       empty_text: ไม่มีการแจ้งเตือน
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       title: => core.ref.notifications
@@ -331,20 +331,20 @@ core:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_old_tooltip: 'ชื่อหัวข้อเดิม คือ: "{old}"'
-      discussion_renamed_text: "{username} เปลี่ยนชื่อหัวข้อเป็น {new}."
+      discussion_renamed_old_tooltip: 'ชื่อกระทู้เดิม คือ: "{old}"'
+      discussion_renamed_text: "{username} เปลี่ยนชื่อกระทู้เป็น {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} later"
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
-      title: Rename Discussion
+      title: เปลี่ยนชื่อกระทู้
       submit_button: => core.ref.rename
 
     # These translations are used by the search results dropdown list.
     search:
-      all_discussions_button: 'ค้นหาหัวข้อทั้งหมดสำหรับ "{query}"'
+      all_discussions_button: 'ค้นหากระทู้ทั้งหมดสำหรับ "{query}"'
       discussions_heading: => core.ref.discussions
       users_heading: ผู้ใช้
 
@@ -356,7 +356,7 @@ core:
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: เว็บไซต์
-      notify_discussion_renamed_label: บางคนเปลี่ยนชื่อหัวข้อที่ฉันเริ่ม
+      notify_discussion_renamed_label: บางคนเปลี่ยนชื่อกระทู้ที่ฉันเริ่ม
       privacy_disclose_online_label: อนุญาตให้ผู้อื่นเห็นเมื่อฉันออนไลน์
       privacy_heading: ความเป็นส่วนตัว
       title: => core.ref.settings
@@ -379,7 +379,7 @@ core:
       avatar_upload_tooltip: อัพโหลดรูปประจำตัว
       bio_placeholder: เขียนอะไรบางอย่างเกี่ยวกับตัวคุณ
       discussions_link: => core.ref.discussions
-      in_discussion_text: "ในหัวข้อ {discussion}"
+      in_discussion_text: "ในกระทู้ {discussion}"
       joined_date_text: "เข้าร่วมเมื่อ {ago}"
       online_text: ออนไลน์
       posts_load_more_button: => core.ref.load_more
@@ -506,14 +506,14 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: ห้วข้อทั้งหมด
+    all_discussions: กระทู้ทั้งหมด
     change_email: แก้ไขอีเมล
     change_password: เปลี่ยนรหัสผ่าน
     confirm_password: ยืนยันรหัสผ่าน
     confirmation_email_sent: "เราได้ส่งอีเมลยืนยันไปที่ {email}. หากคุณไม่ได้รับอีเมลยืนยัน ให้ตรวจสอบในโฟลเดอร์สแปมของคุณ."
     delete: ลบ
     delete_forever: ลบถาวร
-    discussions: ห้วข้อ
+    discussions: กระทู้
     edit: แก้ไข
     email: อีเมล
     load_more: แสดงเพิ่ม
@@ -532,7 +532,7 @@ core:
     settings: การตั้งค่า
     sign_up: สมัครใช้งาน
     some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: ตั้งหัวข้อใหม่
+    start_a_discussion: ตั้งกระทู้ใหม่
     username: ชื่อผู้ใช้
     write_a_reply: ตอบกลับ...
     you: คุณ                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
@@ -543,11 +543,11 @@ core:
 
   # Translations in this namespace are used to translate default group names.
   group:
-    admin: Admin
-    admins: Admins
-    guest: Guest
-    guests: Guests
-    member: Member
-    members: Members
-    mod: Mod
-    mods: Mods
+    admin: แอดมิน
+    admins: แอดมิน
+    guest: บุคคลทั่วไป
+    guests: บุคคลทั่วไป
+    member: สมาชิก
+    members: สมาชิก
+    mod: ผู้ดูแล
+    mods: ผู้ดูแล

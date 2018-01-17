@@ -9,7 +9,7 @@ flarum-lock:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      lock_discussions_label: ล็อคหัวข้อ
+      lock_discussions_label: ล็อคกระทู้
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -29,9 +29,9 @@ flarum-lock:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_locked_text: "{username} ล็อคหัวข้อ"
-      discussion_unlocked_text: "{username} ปลดล็อคหัวข้อ"
+      discussion_locked_text: "{username} ล็อคกระทู้"
+      discussion_unlocked_text: "{username} ปลดล็อคกระทู้"
 
     # These translations are used in the Settings page.
     settings:
-      notify_discussion_locked_label: บางคนล็อคหัวข้อที่ฉันเริ่ม
+      notify_discussion_locked_label: บางคนล็อคกระทู้ที่ฉันเริ่ม
