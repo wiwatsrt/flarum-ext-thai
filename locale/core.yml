@@ -43,6 +43,7 @@ core:
       home_page_heading: Home Page
       home_page_text: "Choose the page which users will first see when they visit your forum. If entering a custom value, use the path relative to the forum root."
       saved_message: Your changes were saved.
+      show_language_selector_label: Show language selector
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Welcome Banner
       welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
@@ -148,6 +149,7 @@ core:
       start_discussions_label: Start discussions
       view_discussions_label: View discussions
       view_post_ips_label: View post IP addresses
+      view_user_list_label: View user list
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -263,6 +265,7 @@ core:
     # These translations are used in the header and session dropdown menu.
     header:
       admin_button: จัดการเว็บไซต์
+      back_to_index_tooltip: Back to discussion list
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: โปรไฟล์
@@ -292,7 +295,7 @@ core:
       forgot_password_link: "ลืมรหัสผ่าน?"
       invalid_login_message: ข้อมูลการเข้าสู่ระบบไม่ถูกต้อง.
       password_placeholder: => core.ref.password
-      remember_me_label: Remember me for two weeks
+      remember_me_label: Remember Me
       sign_up_text: "ถ้ายังไม่มีบัญชี? <a>สมัครใช้งาน</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
@@ -336,7 +339,7 @@ core:
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
-      title: Enter a new title for this discussion
+      title: Rename Discussion
       submit_button: => core.ref.rename
 
     # These translations are used by the search results dropdown list.
